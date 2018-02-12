@@ -22,7 +22,7 @@ public class CalculadoraFX extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
-        
+        /*Esto es un comentario*/
         stage.setScene(scene);
         stage.setTitle("Calculadora P1");
         stage.setResizable(false);
